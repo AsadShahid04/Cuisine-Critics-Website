@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<!--A dishes page which reviews the Lasagne Dish-->
+
+<body>
+	<!--Navbar which is presented on top of every screen. Made by everyone in the group-->
+	<div class="navbar">
+    <!--Home page button with logo. Made By Ethan-->
+		<div class="dropdown">
+			<button class="dropbtn"> <a href="index.html"> <img class="centerimage" src="assets/websitelogo.svg" width="125px"></a>
+    </div>
+      <!--Fresh dropdown menu. Made By Asad, Jonah, Allen-->
+      <div class="dropdown">
+        <button class="dropbtn">Fresh
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          
+          <a href="Salad Shirazi.html">Salad Shirazi</a>
+          <a href="Mast o Khiar.html"> Mast o Khiar</a>
+          
+          <a href="Giardiniera Antipasto Platter.html"> Giardiniera Antipasto Platter</a>
+          <a href="Parmesan-Basil Crumbs.html"> Grilled Eggplant & Tomatoes</a>
+           
+          <a href="CHAR KWAY TEOW.html">Char Kway Teow</a>
+          <a href="Assam Laksa.html">Assam Laksa</a>
+        </div>
+      </div>
+      
+      <!--Classics dropdown menu. Made By Asad, Jonah, Allen-->
+      <div class="dropdown">
+        <button class="dropbtn">Classics
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          
+          <a href="Hawaii Lunch Plate.html">Hawaii Lunch Plate</a>
+          <a href="Luau Stew.html">Luau Stew</a>
+          
+          <a href="Lasagne.html">Lasagne</a>
+          <a href="Ragù alla Bolognes.html">Ragù alla Bolognes</a>
+          
+          <a href="Kranjska Klobasa (Carniolan sausage).html">Štefani Pečenka</a> 
+          <a href="Štefani Pečenka.html">Kranjska Klobasa (Carniolan sausage)</a>
+        </div>
+      </div> 
+
+      <!--Drinks dropdown menu. Made By Asad, Jonah, Allen-->
+      <div class="dropdown">
+        <button class="dropbtn">Drinks
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="drinks_margarita.html">Margarita</a>
+          <a href="drinks_shirley.html">Shirley Temple</a>
+          <a href="drinks_thai.html">Thai Tea</a>
+          <a href="drinks_moscow.html">Moscow Mule</a>
+          <a href="drinks_sake.html">Sake</a>
+        </div>
+      </div> 
+
+      <!--Requests dropdown menu. Made By Asad, Jonah, Allen-->
+      <div class="dropdown">
+        <button class="dropbtn">Requests
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="requests_page.html">Requests Page</a>
+        </div>
+      </div> 
+
+      <!--More Info dropdown menu. Made By Ethan, Asad, Jonah, Allen-->
+      <div class="dropdown">
+        <button class="dropbtn">More Info
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="about_ethan.html">About Us</a>
+          <a href="about_images.html">Citations</a>
+        </div>
+      </div>
+
+      <!--CLickable searchbar to navigate pages. Made By Ethan-->
+      <div class="searchbar">
+        <button class="dropbtn"> <a href="search.html"> Click to Search <img src="http://assets.stickpng.com/thumbs/585e4ae1cb11b227491c3393.png" width=20px/></a>
+      </div>
+      
+    </div>
+  </body>
+
+  <body>
+    <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>3 Column Layout</title>
+	<style type="text/css">
+
+		/* Layout */
+		body {
+			min-width: 830px;
+		}
+
+		#container {
+			padding-left: 200px;
+			padding-right: 190px;
+		}
+		
+		#container .column {
+			position: relative;
+			float: left;
+		}
+		
+		#center {
+			padding: 230px ;
+			width: 100%;
+		}
+		
+		#left {
+			width: 350px;
+			padding: 0 10px;
+			right: 150px;
+			margin-left: -100%;
+		}
+		
+		#right {
+			width: 130px;
+			padding: 10px;
+			margin-right: -100%;
+		}
+		
+		#footer {
+			clear: both;
+		}
+		
+		/* IE hack */
+		* html #left {
+			left: 500px;
+		}
+
+		/* Make the columns the same height as each other */
+		#container {
+			overflow: hidden;
+		}
+
+		#container .column {
+			padding-bottom: 1001em;
+			margin-bottom: -1000em;
+		}
+
+		/* Fix for the footer */
+		* html body {
+			overflow: hidden;
+		}
+		
+		* html #footer-wrapper {
+			float: center;
+			position: relative;
+			width: 100%;
+			padding-bottom: 10010px;
+			margin-bottom: -10000px;
+			background: #fff;
+		}
+
+		/* Aesthetics */
+		body {
+			margin: 0;
+			padding: 0;
+			font-family:Sans-serif;
+			line-height: 1.5em;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		nav ul a {
+			color: darkgreen;
+			text-decoration: none;
+		}
+
+		#header, #footer {
+			font-size: large;
+			padding: 0.3em;
+			background: #BCCE98;
+		}
+
+		#left {
+			background: #DAE9BC;
+		}
+		
+		#right {
+			background: #F7FDEB;
+		}
+
+		#center {
+			background: #fff;
+		}
+
+		#container .column {
+			padding-top: 1em;
+		}
+		
+	</style>
+	
+	
+</head>
+
+<body>
+
+	<header id="header"><p>Classics</p></header>
+
+	<div id="container">
+
+		<main id="center" class="column">
+			<article>
+				<h1>Lasagne</h1>
+				<p>
+
+          The word lasagne refers to a dish made with  ribbon pasta, in several layers interspersed with layers of ingredients along with sauces. Lasagne has originally originated from Italy, in the region of Emilia-Romagna!
+
+          In Italy, it is common to have lasagne as a main dish in dinners during Easter and Christmas. Now brought to the States through southern Italian immigrants, it is to be served as a main dish in resteraunts.
+
+           This comfort food favorite layers robust tomato sauce, ground beef and a mozzarella-ricotta cheese mixture between sheets of pasta. This baked dish is perfect for everything from busy weeknight dinners to parties and entertaining.
+         </p>
+       <br> 
+       <br>  
+       <h3>Ingredients</h3>
+              <ul>
+                <li>1 package Anna Traditional Lasagne (1 lb)</li>
+                <li>1 lb Ground Beef</li>
+                <li>1 jar Cento All Purpose Pasta Sauce (26 oz)</li>
+                <li>1 cup Water</li>
+                <li>1 Egg, beaten</li>
+                <li>1 lb Ricotta Cheese</li>
+                <li>8 oz Mozzarella Cheese, grated</li>
+                <li>3/4 cup Parmesan Cheese, grated</li>
+                <li>1 tbsp Cento Parsley</li>
+                <li>Cento Fine Sicilian Sea Salt, to taste</li>
+                <li>Cento Ground Black Pepper, to taste</li>
+              </ul>
+              </ul>
+              <br>
+              <br>
+
+              <h3>Recipe</h3>
+          <ol type="1">
+            <li>1. Cook sausage, ground beef, onion, and garlic over medium heat until well browned. Stir with crushed tomatoes, tomato paste, tomato sauce, and water.</li><br>
+            <li>2.Cook lasagna noodles in boiling water for a couple minutes.</li><br>
+            <li>3. Combine ricotta cheese with egg, parsley, and salt.</li><br>
+            <li>4. Spread 1 1/2 cups of meat sauce in the bottom of a 9x13-inch baking dish. Arrange 6 noodles lengthwise over. Top with a third of mozzarella cheese. slices. Spoon 1 1/2 cups meat sauce over mozzarella, and sprinkle with 1/4 cup Parmesan cheese. </li><br>
+            <li>5. Bake in preheated oven for 25 minutes.</li><br>
+
+
+              <h3>Recipe Origin:</h3>
+              <div class="mapouter"><div class="gmap_canvas"><iframe width="550" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=italy&t=&z=5&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></style></div></div>
+			</article>								
+		</main>
+
+		<nav id="left" class="column">
+	    <img class="centerimage" src="https://hips.hearstapps.com/vidthumb/images/180820-bookazine-delish-01280-1536610916.jpg?crop=1.00xw:0.752xh;0,0.250xh&resize=640:*"  width="300px">
+
+		</nav>
+
+		<div id="right" class="column">
+			<h3>Rating:</h3>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+      .checked {
+        color: orange;
+      }
+      </style>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+		</div>
+
+	</div>
+  <p class="descriptionbox">Copyright © 2021 Cuisine Critics, Inc. All rights reserved.</p>
+  <p class="descriptionbox">CuisineCritics® and its related marks are registered trademarks of Cuisine Critics Inc.</p>
+</body>
+</html>

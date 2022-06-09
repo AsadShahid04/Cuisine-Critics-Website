@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<!--A drinks page specifcally for the Shirley drink-->
+
+<body>
+	<!--Navbar which is presented on top of every screen. Made by everyone in the group-->
+	<div class="navbar">
+    <!--Home page button with logo. Made By Ethan-->
+		<div class="dropdown">
+			<button class="dropbtn"> <a href="index.html"> <img class="centerimage" src="assets/websitelogo.svg" width="125px"></a>
+    </div>
+      <!--Fresh dropdown menu. Made By Asad, Jonah, Allen-->
+      <div class="dropdown">
+        <button class="dropbtn">Fresh
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          
+          <a href="Salad Shirazi.html">Salad Shirazi</a>
+          <a href="Mast o Khiar.html"> Mast o Khiar</a>
+          
+          <a href="Giardiniera Antipasto Platter.html"> Giardiniera Antipasto Platter</a>
+          <a href="Parmesan-Basil Crumbs.html"> Grilled Eggplant & Tomatoes</a>
+           
+          <a href="CHAR KWAY TEOW.html">Char Kway Teow</a>
+          <a href="Assam Laksa.html">Assam Laksa</a>
+        </div>
+      </div>
+      
+      <!--Classics dropdown menu. Made By Asad, Jonah, Allen-->
+      <div class="dropdown">
+        <button class="dropbtn">Classics
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          
+          <a href="Hawaii Lunch Plate.html">Hawaii Lunch Plate</a>
+          <a href="Luau Stew.html">Luau Stew</a>
+          
+          <a href="Lasagne.html">Lasagne</a>
+          <a href="Ragù alla Bolognes.html">Ragù alla Bolognes</a>
+          
+          <a href="Kranjska Klobasa (Carniolan sausage).html">Štefani Pečenka</a> 
+          <a href="Štefani Pečenka.html">Kranjska Klobasa (Carniolan sausage)</a>
+        </div>
+      </div> 
+
+      <!--Drinks dropdown menu. Made By Asad, Jonah, Allen-->
+      <div class="dropdown">
+        <button class="dropbtn">Drinks
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="drinks_margarita.html">Margarita</a>
+          <a href="drinks_shirley.html">Shirley Temple</a>
+          <a href="drinks_thai.html">Thai Tea</a>
+          <a href="drinks_moscow.html">Moscow Mule</a>
+          <a href="drinks_sake.html">Sake</a>
+        </div>
+      </div> 
+
+      <!--Requests dropdown menu. Made By Asad, Jonah, Allen-->
+      <div class="dropdown">
+        <button class="dropbtn">Requests
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="requests_page.html">Requests Page</a>
+        </div>
+      </div> 
+
+      <!--More Info dropdown menu. Made By Ethan, Asad, Jonah, Allen-->
+      <div class="dropdown">
+        <button class="dropbtn">More Info
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="about_ethan.html">About Us</a>
+          <a href="about_images.html">Citations</a>
+        </div>
+      </div>
+
+      <!--CLickable searchbar to navigate pages. Made By Ethan-->
+      <div class="searchbar">
+        <button class="dropbtn"> <a href="search.html"> Click to Search <img src="http://assets.stickpng.com/thumbs/585e4ae1cb11b227491c3393.png" width=20px/></a>
+      </div>
+      
+    </div>
+  </body>
+
+  <body>
+    <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>3 Column Layout</title>
+	<style type="text/css">
+
+		/* Layout */
+		body {
+			min-width: 830px;
+		}
+
+		#container {
+			padding-left: 200px;
+			padding-right: 190px;
+		}
+		
+		#container .column {
+			position: relative;
+			float: left;
+		}
+		
+		#center {
+			padding: 230px ;
+			width: 100%;
+		}
+		
+		#left {
+			width: 350px;
+			padding: 0 10px;
+			right: 150px;
+			margin-left: -100%;
+		}
+		
+		#right {
+			width: 130px;
+			padding: 10px;
+			margin-right: -100%;
+		}
+		
+		#footer {
+			clear: both;
+		}
+		
+		/* IE hack */
+		* html #left {
+			left: 500px;
+		}
+
+		/* Make the columns the same height as each other */
+		#container {
+			overflow: hidden;
+		}
+
+		#container .column {
+			padding-bottom: 1001em;
+			margin-bottom: -1000em;
+		}
+
+		/* Fix for the footer */
+		* html body {
+			overflow: hidden;
+		}
+		
+		* html #footer-wrapper {
+			float: center;
+			position: relative;
+			width: 100%;
+			padding-bottom: 10010px;
+			margin-bottom: -10000px;
+			background: #fff;
+		}
+
+		/* Aesthetics */
+		body {
+			margin: 0;
+			padding: 0;
+			font-family:Sans-serif;
+			line-height: 1.5em;
+		}
+		
+		p {
+			color: #555;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		nav ul a {
+			color: darkgreen;
+			text-decoration: none;
+		}
+
+		#header, #footer {
+			font-size: large;
+			padding: 0.3em;
+			background: #BCCE98;
+		}
+
+		#left {
+			background: #DAE9BC;
+		}
+		
+		#right {
+			background: #F7FDEB;
+		}
+
+		#center {
+			background: #fff;
+		}
+
+		#container .column {
+			padding-top: 1em;
+		}
+		
+	</style>
+	
+	
+</head>
+
+<body>
+
+	<header id="header"><p>Drinks</p></header>
+
+	<div id="container">
+
+		<main id="center" class="column">
+			<article>
+				<p class= "overview">
+          <h1>Shirley Temples</h1>
+          Shirley Temple is a non-alcoholic drink made from ginger ale, grenadine, and maraschino cherry. It is a drink intended for consumption by children to avoid giving them real alcoholic drinks.
+
+              Originally as a mocktail, this simple, delicious, cold pink bubbly drink that is enjoyed by youngsters and adults, and a great way to take a plain can of soda and dress it up to make it look and taste fancy. It’s the perfect holiday drink, since everyone can enjoy it.
+              </p>
+              <br> 
+              <h3>Namesake</h3>
+              <p>Shirley Temple Black was one of the most famous child actresses in the 1930s, and as she attended parties with older celebrities could not consume the same drinks as they could. In response, a mocktail derived from children-friendly ingredients was crafted for her. The drink became synonymous with her name, and the rest is history.</p>
+              <br> 
+              <p>While Shirley Temple is a drink primarily consumed by children, adults often make them for home use or for parties. It is a safe beverage without alcohol, both delicious and safer than alcoholic drinks.</p>
+              <br>
+              <h3>Ingredients</h3>
+              <ul>
+                <li>1 ounce of grenadine</li>
+                <li>4 ounces ginger ale</li>
+                <li>1 Maraschino cherry</li>
+              </ul><br><br>
+
+               <h3>Recipe</h3>
+              <ol type="1">
+                <li>1. Fill a glass with ice</li><br>
+                <li>2. Add about 1 ounce (2 tablespoons) of grenadine</li><br>
+                <li>3. Top with white soda, then garnish with maraschino cherries.</li><br>
+                <br>
+              </ol> <br>
+              
+              <br>
+              <h3>Recipe Origin:</h3>
+              <div class="mapouter"><div class="gmap_canvas"><iframe width="550" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Beverly%20hills&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></style></div></div>
+			</article>								
+		</main>
+
+		<nav id="left" class="column">
+	    <img class="centerimage" src="https://bellyfull.net/wp-content/uploads/2020/12/Shirley-Temple-Drink-blog.jpg" width="300px">
+
+		</nav>
+
+		<div id="right" class="column">
+			<h3>Rating:</h3>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+      .checked {
+        color: orange;
+      }
+      </style>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+		</div>
+
+	</div>
+  <p class="descriptionbox">Copyright © 2021 Cuisine Critics, Inc. All rights reserved.</p>
+  <p class="descriptionbox">CuisineCritics® and its related marks are registered trademarks of Cuisine Critics Inc.</p>
+</body>
+</body>
+</html>

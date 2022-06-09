@@ -1,0 +1,589 @@
+/* CSS file which is used for layout designing */
+
+/* HTML tags */
+title{
+    text-align:center;
+}
+
+.descriptionbox{
+  //background-color: #97D8B2;
+  text-align: center;
+  padding: 10px;
+}
+
+p{
+  line-height:1.75;
+}
+li{
+  line-height:1.25;
+}
+
+body{
+    background-image: url('https://i.pinimg.com/originals/97/37/27/973727000e0b2312ac161e17c119e127.jpg');
+    background-repeat:repeat-y;
+    background-size:100%;
+    width:cover;
+    height:cover;
+    margin:0px;
+}
+
+h1{
+    text-align:center;
+}
+
+td{
+  line-height:1.5;
+}
+
+/* Content modifiers */
+
+.centerimage{
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  display:block;
+}
+  
+.content{
+    background-color:white;
+    text-align:center;
+}
+.navbar{
+    background-color:#FFFFFF;
+    width:100%;
+    height:75px;
+    margin:0px;
+    font-family: sans-serif;
+}
+/* Creates white box for page content */
+.maincontent{
+    background-color:white;
+    border:none;
+    height:wrap_content;
+    margin-left:auto;
+    margin-right:auto;
+    padding:2px 20px;
+    width:75%;
+}
+.contentbox{
+    margin-left:auto;
+    margin-right:auto;
+}
+.contactcontent{
+  text-align:center;
+}
+
+.drinks{
+  float:left;
+}
+
+.navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Dropdown Button */
+.dropbtn {
+  background-color:#FFFFFF;
+  color: rgb(0, 0, 0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 6px;
+  font-size: 22px;
+  border: none;
+  vertical-align: middle;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+  font-family: sans-serif;
+}
+
+.dropdown a {
+  color:white;
+  text-decoration:none;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #97D8B2;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgb(239, 210, 245);
+  z-index: 1;
+  font-family: sans-serif;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {background-color: #97D8B2;}
+
+.tdcontact {
+  width:20%;
+}
+
+.citation {
+  word-wrap: break-word;
+}
+
+.searchbar {
+  position: relative;
+  display: inline-block;
+  font-family: sans-serif;
+  outline-style: solid;
+  border-radius: 10px;
+  margin-right: 8px;
+  vertical-align: middle;
+  color: #D3D3D3;
+  float:right;
+  margin: 15px;
+
+.overview {
+  text-align:center;
+} 
+
+}
+/*SLIDESHOW STUFF----------------------------------------------*/
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+.slideshow-container2 {
+  position: relative;
+  background: #f1f1f1f1;
+  height:500px;
+}
+
+/* Slides */
+.mySlides {
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/*SLIDESHOW STUFF----------------------------------------------*/
+
+.random {
+  font-size: 20px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #97D8B2;
+  text-align: center;
+  text-shadow:
+    0.07em 0 black;
+    0 0.07em black;
+    -0.07em 0 black;
+    0 -0.07em black;
+}
+
+.randomsubmit{
+  background-color: rgb(0, 82, 18);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin:5px;
+  font-size: 15px;
+  color: white;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 10px;
+  border: none;
+
+}
+
+/*search stuff-----------------------------------------------*/
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; 
+  background-repeat: no-repeat; 
+  width: 100%;
+  font-size: 16px; 
+  padding: 12px 20px 12px 40px; 
+  border: 1px solid #ddd; 
+  margin-bottom: 12px; 
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd; 
+  margin-top: -1px; 
+  background-color: #f6f6f6; 
+  padding: 12px; 
+  text-decoration: none; 
+  font-size: 18px; 
+  color: black; 
+  display: block; 
+}
+.avatar {
+  vertical-align: middle;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+#myUL li a:hover:not(.header) {
+  background-color: #eee; /* Add a hover effect to all links, except for headers */
+}
+/*search stuff-----------------------------------------------*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;#97D8B2;
+}
+
+body{
+   background-color: #f3f3f3;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.wrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 1000px;
+  height: 500px;
+  display: flex;
+  box-shadow: 0 1px 20px 0 rgba(69,90,100,.08);
+}
+
+.wrapper .left{
+  width: 35%;
+  background: linear-gradient(to right,rgb(69, 129, 94),#97D8B2);
+  padding: 30px 25px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  text-align: center;
+  color: #fff;
+}
+
+.wrapper .left img{
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.wrapper .left h4{
+  margin-bottom: 10px;
+}
+
+.wrapper .left p{
+  font-size: 12px;
+}
+
+.wrapper .right{
+  background: #fff;
+  padding: 30px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+
+.wrapper .right .info h3,
+.wrapper .right .projects h3{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #353c4e;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.wrapper .right .info_data,
+.wrapper .right .projects_data{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+.wrapper .right .info_data .data h4,
+.wrapper .right .projects_data .data h4{
+    color: #353c4e;
+    margin-bottom: 5px;
+}
+
+.wrapper .right .info_data .data p,
+.wrapper .right .projects_data .data p{
+  font-size: 13px;
+  margin-bottom:10px;
+}
+
+form {
+  text-align: center;
+}
+
+/*why us section-----------------------------------------------*/
+.row {
+  background-color: rgba(0, 0, 0, 0.068);
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.whyus {
+  text-align: center;
+  font-size: 20px;
+}
+
+.tagtitle {
+  text-align: center;
+}
+
+/*dailydish section-----------------------------------------------*/
+.dailydish {
+  outline-style: bold;
+}
+.column3 {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  outline-style: bold;
+}
+
+.dailydish:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.dailydishimg{
+  object-fit: contain;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:center;
+  width:100%;
+  height:100%;
+}
+
+.dailydishlabel {
+  font-size: 50px;
+  color: black;
+}
+
+.dailydishdescription {
+  font-size: 15px;
+  color:grey;
+}
+
+
+/*hot recipes section*/
+.column2 {
+  float: left;
+  width: 24.25%;
+  border-radius:10px;
+  border-width:2px;
+  outline-style:solid;
+  background-color: #97D8B2;
+}
+
+.hot:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.hotrecipes {
+  font-size: 15px;
+}
+
+.hotrecipesimg {
+  object-fit: contain;
+  padding-top:20px;
+  padding-left:10px;
+  padding-right:10px;
+  text-align:center;
+  width:100%;
+  height:170px;
+
+}
+
+.description {
+  text-align: center;
+  font-size:25px;
+  color: black;
+  
+}
+
+.description2 {
+  text-align: center;
+  font-size:15px;
+  color: grey;
+}
+
+/*Questions section-----------------------------------------------*/
+.questions {
+  background-color: rgba(0, 0, 0, 0.068);
+}
+.questionscolumn {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+.questions:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.whyus {
+  text-align: center;
+  font-size: 20px;
+}
+
+.tagtitle {
+  text-align: center;
+}
+
+.collapsible {
+  background-color: #777;
+  color: white;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #555;
+}
+
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.content {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+}
+
+/*--Map Section--*/
+.maprouter {
+  margin: auto;
+}

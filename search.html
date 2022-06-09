@@ -1,0 +1,149 @@
+<!--Used for implementing the search feature on the menubar throughout the website--> 
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <!--Navbar which is presented on top of every screen. Made by everyone in the group-->
+	<div class="navbar">
+    <!--Home page button with logo. Made By Ethan-->
+		<div class="dropdown">
+			<button class="dropbtn"> <a href="index.html"> <img class="centerimage" src="assets/websitelogo.svg" width="125px"></a>
+    </div>
+      <!--Fresh dropdown menu. Made By Asad, Jonah, Allen-->
+      <div class="dropdown">
+        <button class="dropbtn">Fresh
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          
+          <a href="Salad Shirazi.html">Salad Shirazi</a>
+          <a href="Mast o Khiar.html"> Mast o Khiar</a>
+          
+          <a href="Giardiniera Antipasto Platter.html"> Giardiniera Antipasto Platter</a>
+          <a href="Parmesan-Basil Crumbs.html"> Grilled Eggplant & Tomatoes</a>
+           
+          <a href="CHAR KWAY TEOW.html">Char Kway Teow</a>
+          <a href="Assam Laksa.html">Assam Laksa</a>
+        </div>
+      </div>
+      
+      <!--Classics dropdown menu. Made By Asad, Jonah, Allen-->
+      <div class="dropdown">
+        <button class="dropbtn">Classics
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          
+          <a href="Hawaii Lunch Plate.html">Hawaii Lunch Plate</a>
+          <a href="Luau Stew.html">Luau Stew</a>
+          
+          <a href="Lasagne.html">Lasagne</a>
+          <a href="Ragù alla Bolognes.html">Ragù alla Bolognes</a>
+          
+          <a href="Kranjska Klobasa (Carniolan sausage).html">Štefani Pečenka</a> 
+          <a href="Štefani Pečenka.html">Kranjska Klobasa (Carniolan sausage)</a>
+        </div>
+      </div> 
+
+      <!--Drinks dropdown menu. Made By Asad, Jonah, Allen-->
+      <div class="dropdown">
+        <button class="dropbtn">Drinks
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="drinks_margarita.html">Margarita</a>
+          <a href="drinks_shirley.html">Shirley Temple</a>
+          <a href="drinks_thai.html">Thai Tea</a>
+          <a href="drinks_moscow.html">Moscow Mule</a>
+          <a href="drinks_sake.html">Sake</a>
+        </div>
+      </div> 
+
+      <!--Requests dropdown menu. Made By Asad, Jonah, Allen-->
+      <div class="dropdown">
+        <button class="dropbtn">Requests
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="requests_page.html">Requests Page</a>
+        </div>
+      </div> 
+
+      <!--More Info dropdown menu. Made By Ethan, Asad, Jonah, Allen-->
+      <div class="dropdown">
+        <button class="dropbtn">More Info
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="about_ethan.html">About Us</a>
+          <a href="about_images.html">Image Citations</a>
+        </div>
+      </div>
+
+      <!--CLickable searchbar to navigate pages. Made By Ethan-->
+      <div class="searchbar">
+        <button class="dropbtn"> <a href="search.html"> Click to Search <img src="http://assets.stickpng.com/thumbs/585e4ae1cb11b227491c3393.png" width=20px/></a>
+      </div>
+      
+    </div>
+        
+        <div class="maincontent">
+            <!--List of items in the search engine-->
+            <input type="text" id="myInput" onkeyup="searchFunction()" placeholder="Search for names..">
+              <ul id="myUL">
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/about_ethan.html">About Us</a></li>
+
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/about_ethan.html">Allen Sheu</a></li>
+                
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/about_ethan.html">Asad Shahid</a></li>
+
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/Assam%20Laksa.html">Assam Laksa</a></li>
+
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/CHAR%20KWAY%20TEOW.html">Char Kway Teow</a></li>
+
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/about_ethan.html">Ethan Kwok</a></li>
+
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/Giardiniera%20Antipasto%20Platter.html">Giardiniera Antopasto Platter</a></li>
+
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/about_images.html">Images Cited</a></li>
+
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/about_ethan.html">Jonah Tan</a></li>
+
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/Hawaii%20Lunch%20Plate.html">Hawaii Lunch Plate</a></li>
+
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/Parmesan-Basil%20Crumbs.html">Grilled Eggplant and Tomatoes with Parmesan-Basil Crumbs</a></li>
+
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/drinks_margarita.html">Margarita</a></li>
+
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/drinks_moscow.html">Moscow Mule</a></li>
+
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/Lasagne.html">Lasagne</a></li>
+
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/Luau%20Stew.html">Luau Stew</a></li>
+
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/Mast%20o%20Khiar.html">Mast o Khiar</a></li>
+
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/Rag%C3%B9%20alla%20Bolognes.html">Ragù alla Bolognes</a></li>
+
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/drinks_sake.html">Sake</a></li>
+
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/Salad%20Shirazi.html">Salad Shizari</a></li>
+
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/drinks_shirley.html">Shirley Temple</a></li>
+
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/Kranjska%20Klobasa%20(Carniolan%20sausage).html">Stefani Pecenka</a></li>
+
+                <li><a href="https://webpage-design-period-5.period-7.repl.co/drinks_thai.html">Thai Tea</a></li>
+
+              </ul>
+              
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

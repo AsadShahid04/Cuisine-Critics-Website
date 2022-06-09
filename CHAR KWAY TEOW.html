@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<!--This page is for the review of Char Kway Teow Dish-->
+
+<body>
+	<!--Navbar which is presented on top of every screen. Made by everyone in the group-->
+	<div class="navbar">
+    <!--Home page button with logo. Made By Ethan-->
+		<div class="dropdown">
+			<button class="dropbtn"> <a href="index.html"> <img class="centerimage" src="assets/websitelogo.svg" width="125px"></a>
+    </div>
+      <!--Fresh dropdown menu. Made By Asad, Jonah, Allen-->
+      <div class="dropdown">
+        <button class="dropbtn">Fresh
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          
+          <a href="Salad Shirazi.html">Salad Shirazi</a>
+          <a href="Mast o Khiar.html"> Mast o Khiar</a>
+          
+          <a href="Giardiniera Antipasto Platter.html"> Giardiniera Antipasto Platter</a>
+          <a href="Parmesan-Basil Crumbs.html"> Grilled Eggplant & Tomatoes</a>
+           
+          <a href="CHAR KWAY TEOW.html">Char Kway Teow</a>
+          <a href="Assam Laksa.html">Assam Laksa</a>
+        </div>
+      </div>
+      
+      <!--Classics dropdown menu. Made By Asad, Jonah, Allen-->
+      <div class="dropdown">
+        <button class="dropbtn">Classics
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          
+          <a href="Hawaii Lunch Plate.html">Hawaii Lunch Plate</a>
+          <a href="Luau Stew.html">Luau Stew</a>
+          
+          <a href="Lasagne.html">Lasagne</a>
+          <a href="Ragù alla Bolognes.html">Ragù alla Bolognes</a>
+          
+          <a href="Kranjska Klobasa (Carniolan sausage).html">Štefani Pečenka</a> 
+          <a href="Štefani Pečenka.html">Kranjska Klobasa (Carniolan sausage)</a>
+        </div>
+      </div> 
+
+      <!--Drinks dropdown menu. Made By Asad, Jonah, Allen-->
+      <div class="dropdown">
+        <button class="dropbtn">Drinks
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="drinks_margarita.html">Margarita</a>
+          <a href="drinks_shirley.html">Shirley Temple</a>
+          <a href="drinks_thai.html">Thai Tea</a>
+          <a href="drinks_moscow.html">Moscow Mule</a>
+          <a href="drinks_sake.html">Sake</a>
+        </div>
+      </div> 
+
+      <!--Requests dropdown menu. Made By Asad, Jonah, Allen-->
+      <div class="dropdown">
+        <button class="dropbtn">Requests
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="requests_page.html">Requests Page</a>
+        </div>
+      </div> 
+
+      <!--More Info dropdown menu. Made By Ethan, Asad, Jonah, Allen-->
+      <div class="dropdown">
+        <button class="dropbtn">More Info
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="about_ethan.html">About Us</a>
+          <a href="about_images.html">Citations</a>
+        </div>
+      </div>
+
+      <!--CLickable searchbar to navigate pages. Made By Ethan-->
+      <div class="searchbar">
+        <button class="dropbtn"> <a href="search.html"> Click to Search <img src="http://assets.stickpng.com/thumbs/585e4ae1cb11b227491c3393.png" width=20px/></a>
+      </div>
+      
+    </div>
+  </body>
+
+  <body>
+    <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>3 Column Layout</title>
+	<style type="text/css">
+
+		/* Layout */
+		body {
+			min-width: 830px;
+		}
+
+		#container {
+			padding-left: 200px;
+			padding-right: 190px;
+		}
+		
+		#container .column {
+			position: relative;
+			float: left;
+		}
+		
+		#center {
+			padding: 230px ;
+			width: 100%;
+		}
+		
+		#left {
+			width: 350px;
+			padding: 0 10px;
+			right: 150px;
+			margin-left: -100%;
+		}
+		
+		#right {
+			width: 130px;
+			padding: 10px;
+			margin-right: -100%;
+		}
+		
+		#footer {
+			clear: both;
+		}
+		
+		/* IE hack */
+		* html #left {
+			left: 500px;
+		}
+
+		/* Make the columns the same height as each other */
+		#container {
+			overflow: hidden;
+		}
+
+		#container .column {
+			padding-bottom: 1001em;
+			margin-bottom: -1000em;
+		}
+
+		/* Fix for the footer */
+		* html body {
+			overflow: hidden;
+		}
+		
+		* html #footer-wrapper {
+			float: center;
+			position: relative;
+			width: 100%;
+			padding-bottom: 10010px;
+			margin-bottom: -10000px;
+			background: #fff;
+		}
+
+		/* Aesthetics */
+		body {
+			margin: 0;
+			padding: 0;
+			font-family:Sans-serif;
+			line-height: 1.5em;
+		}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+		}
+		
+		nav ul a {
+			color: darkgreen;
+			text-decoration: none;
+		}
+
+		#header, #footer {
+			font-size: large;
+			padding: 0.3em;
+			background: #BCCE98;
+		}
+
+		#left {
+			background: #DAE9BC;
+		}
+		
+		#right {
+			background: #F7FDEB;
+		}
+
+		#center {
+			background: #fff;
+		}
+
+		#container .column {
+			padding-top: 1em;
+		}
+		
+	</style>
+	
+</head>
+
+<body>
+
+	<header id="header"><p>Fresh</p></header>
+
+	<div id="container">
+
+		<main id="center" class="column">
+			<article>
+				<h1>CHAR KWAY TEOW</h1>
+				<p>
+        A stir fried Chinese-inspired rice noodle dish from Maritime Southeast Asia, Char Kway Teow is a dish you need to try! In Hokkien, Char means “stir-fried” and kway teow refers to flat rice noodles. In Penang, it is commonly served on a piece of banana leaf on a plate, which is intended to enhance the aroma of the dish.
+        
+        This dish has such an alluring combination of salty, spicy and sweet, this dish is something anyone would easily be hooked to! No wonder it is one of the most epic noodle dishes in the streets of Malaysia! The pungent, sour, and fiery hot noodle dish with fresh vegetables are bathed in a fish broth. Known simply as Laksa in Penang, it’s found pretty much everywhere! Many people say that it is a dish whose taste can only be found in Malaysia!
+        <br><br>
+       This plate used to be sold by fishermen back in the day, where farmers and cockle-gatherers who doubled as char kway teow hawkers in the evening used it to help support their income. This dish was a cheap yet excellent source of energy and nutrients for the low-income. 
+         </p>
+         <br> 
+       <br>
+        <h3>Ingredients</h3>
+        <ul>
+          <li>1 kg whole fish</li>
+          <li>3 slices asam keping (optional; see note)</li>
+          <li>4 Vietnamese mint sprigs</li>
+          <li>4 slices galangal</li>
+          <li>150 gm tamarind pulp, soaked in 1 cup hot water</li>
+          <li>1 tbsp caster sugar, or to taste</li>
+          <li>400 gm dried laksa noodles, softened in cold water for 6-8 minutes</li>
+        </ul>
+        <br><br>
+
+        <h3>Recipe</h3>
+        <ol type="1">
+          <li>1. Grind the chili paste. Heat up a wok with 1 teaspoon oil and stir-fry your chili paste</li><br>
+          <li>2. Add 2 tablespoons oil/lard into the wok and add half the portion of chopped garlic into the wok and do a quick stir.</li><br>
+          <li>3. Transfer 6 prawn out of water and half the sausage slices into the wok.  </li><br>
+          <li>4. Add half the bean sprouts into the wok. Immediately follow by 8 oz. or half portion of the flat noodles. </li>
+          <br>
+          <li>5. Add 2 1/2 tablespoons of the sauce into the wok and stir</li>
+          <br>
+          <li>6. Add about 1/2 tablespoon of chili paste</li>
+          <br>
+          <li>7. Add chives, do a couple of quick stirs</li>
+           <br>
+        </ol> <br>
+
+
+        <h3>Recipe Origin:</h3>
+      <div class="mapouter"><div class="gmap_canvas"><iframe width="550" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Malaysia&t=&z=5&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></style></div></div>
+			</article>								
+		</main>
+
+		<nav id="left" class="column">
+	    <img class="centerimage" src="https://s3.amazonaws.com/tunehotels/5-1582469344136.jpg"  width="300px">
+
+		</nav>
+
+		<div id="right" class="column">
+			<h3>Rating:</h3>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <style>
+      .checked {
+        color: orange;
+      }
+      </style>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+    <span class="fa fa-star checked"></span>
+		</div>
+
+	</div>
+  <p class="descriptionbox">Copyright © 2021 Cuisine Critics, Inc. All rights reserved.</p>
+  <p class="descriptionbox">CuisineCritics® and its related marks are registered trademarks of Cuisine Critics Inc.</p>
+</body>
+</html>
